@@ -1,32 +1,37 @@
 body {
-  background-color: #f9f7fe;
-  font-family: sans-serif;
+  background-color: #d7cbee;
+  font-family: "Roboto Mono", monospace;
 }
 
 h1 {
-  font-family: sans-serif;
-  font-size: 36px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 900;
+  font-size: 50px;
   text-align: center;
+  color: #211e26;
 }
 
 select {
   border-radius: 4px;
   display: block;
-  font-size: 18px;
+  font-size: 16px;
   padding: 10px;
   width: 100%;
+  background: #f5f2fb;
+  border-color: #d7cbee;
+  color: #625973;
 }
 
 h2 {
   margin: 0 0 5px;
-  font-size: 28px;
+  font-size: 35px;
 }
 
 .container {
-  background: white;
+  background: #ebe5f7;
   border-radius: 10px;
-  box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
-  margin: 60px auto;
+  box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.4);
+  margin: 60px auto 30px auto;
   max-width: 600px;
   padding: 30px;
 }
@@ -45,11 +50,13 @@ h2 {
 
 .date {
   opacity: 0.7;
+  font-size: 16px;
 }
 
 .time {
-  font-size: 48px;
-  font-weight: bold;
+  font-size: 45px;
+  font-weight: 400;
+  font-family: "Roboto Mono", monospace;
 }
 
 .time small {
@@ -60,6 +67,7 @@ h2 {
 
 footer {
   color: rgba(0, 0, 0, 0.8);
-  font-size: 18px;
+  font-size: 14px;
   text-align: center;
+  padding-bottom: 20px;
 }
